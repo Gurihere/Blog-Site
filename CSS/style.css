@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+}
+/* <---------Header--------> */
+.title{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+    
+}
+/* Navebar */
+.navbar{
+    background-color: #5cbe59;
+    width: 100%;
+    height: auto;
+    /* position: fixed; */
+}
+.nav-items{
+   font-family: 'Roboto Slab', serif;
+   font-size: 20px;
+   display: inline-block;
+   padding: 20px;
+   color: white;
+}
+.navit{
+    position: absolute;
+    right: 74px;
+    padding-top: 25px;
+}
+/* <--------Main Body-------> */
+
+.main-bg{
+    width: 100%;
+    
+}
+.search-box{
+    position: relative;
+    bottom:410px;
+    text-align: center;
+}
+.search-cat{
+    padding: 40px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 57px;
+    text-shadow:4px 5px 2px black ;
+   
+}
+.label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+.search{
+    width: 600px;
+    height: 50px;
+    border: 2px solid rgb(102, 255, 0);
+    border-radius:20px;
+}
+           /* Section-2 */
+.sec2{
+    position: relative;
+    bottom: 210px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top:200px;
+    
+
+}
+.trending{
+    position: absolute;
+    top: 25px;
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 226, 58);
+    border-radius: 20%;
+  }     
+.box{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    display: flex;
+}     
+.box:hover{
+    transition-duration: 1s;
+    width:110%;
+    height: 750px;
+    background-color: #BCFFB9;
+   
+    
+}
+.sample-profile{
+    width: 230px;
+    border-radius: 200px;
+    position: relative;
+    padding: 20px;
+    
+}
+.name{
+    font-size: 40px;
+    text-align: center;
+    padding: 2px;
+}
+p{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif; 
+    padding: 40px;
+}
+
+.sec3{
+    display:inline;
+    justify-content: center;
+    
+}
+
+
+.more{
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    background-color:rgb(43, 226, 58) ;
+    display: inline;
+    border-radius: 20px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right:20px ;
+    position: relative;
+    bottom: 202px;
+    left: 850px;
+    
+
+}
+.more-blogs{
+    width: 100%;
+    height: 200px;
+    
+    background-color: black;
+}
